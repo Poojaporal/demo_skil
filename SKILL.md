@@ -1,16 +1,10 @@
 ---
-name: storage-replication-debug
+name:  Job Monitoring incidents
 description: >
-  Use this skill for troubleshooting and debugging storage replication issues on IBM and NetApp
-  environments. Trigger whenever a ticket comes in about replication failures, lag, broken mirrors,
-  snapshots not syncing, volume relationships broken, or any IBM SVC/FlashSystem or NetApp ONTAP
-  replication alerts. Covers end-to-end triage: checking ticket info, running diagnostics, isolating
-  the root cause, and applying fixes or escalating. Always use this skill when the user mentions
-  "replication", "mirror", "SnapMirror", "Metro Mirror", "GMCV", "HyperSwap", or any IBM/NetApp
-  storage sync problem.
+This skill is used for monitoring scheduled jobs, identifying failures, analyzing errors, and performing rerun the jobs or corrective actions. It ensures smooth job execution and minimal business impact.
 ---
 
-# Storage Replication Debugging Skill
+# SCORE Team – Job Monitoring & Incident Handling
 
 This skill guides Claude through the full triage workflow for storage replication tickets on
 **IBM** (SVC / FlashSystem / DS8000) and **NetApp** (ONTAP / SnapMirror / SnapVault) environments.
